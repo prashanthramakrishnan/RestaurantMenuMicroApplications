@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RestaurantMenuApp</string>
+    <string name="please_wait_loading">Please wait while the app loads..</string>
+</resources>
