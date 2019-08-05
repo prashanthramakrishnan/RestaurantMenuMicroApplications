@@ -52,12 +52,12 @@ public class RestaurantMenuHTTPProxyService extends Service {
 
                     @Override
                     public int getMaximumRequestBufferSizeInBytes() {
-                        return 10*1024*1024;
+                        return 100*1024*1024;
                     }
 
                     @Override
                     public int getMaximumResponseBufferSizeInBytes() {
-                        return 10*1024*1024;
+                        return 100*1024*1024;
                     }
                 })
                 .start();
